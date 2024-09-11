@@ -1,6 +1,6 @@
 # linux-os-II - password generator
 
-Her kan du generere dit nye password med både tal, store og små bogstaver samt specialtegn, hvis du ønsker. Længden af dit nye password er også helt op til dig, det skal bare være mindst 6 lang.
+Her kan du generere dit nye password med både tal, store og små bogstaver samt specialtegn, hvis du ønsker. Længden af dit nye password er også helt op til dig, det skal bare være mindst 6 lang. Hvis du vælger en længde under 6, så vil det genererede password laves til at være 6 lang.
 
 ## Installationsvejledning
 
