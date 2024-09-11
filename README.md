@@ -15,6 +15,7 @@ cd linux-os-II
 ```
 
 3. Generer dit nye password
+Minimum password længde er 6. Vælger du noget under, så vil dit password output i stedet være 6 karakterer lang.
 ```python
 # Uden specialtegn
 python3 password_generator <password length>
