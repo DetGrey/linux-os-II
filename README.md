@@ -32,9 +32,9 @@ For at få genereret et password med specialtegn skal du bare tilføje et flag `
 python3 password_generator 12
 
 # Med specialtegn (alternativ 1)
-python3 password_generator <password length> -s
+python3 password_generator 12 -s
 
 # Med specialtegn (alternativ 2)
-python3 password_generator <password length> --special
+python3 password_generator 12 --special
 ```
 
