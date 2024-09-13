@@ -14,14 +14,24 @@ git clone https://github.com/DetGrey/linux-os-II
 cd linux-os-II
 ```
 
-3. Generer dit nye password
+3. Giv execution rettigheder
+```python
+chmod +x password_generator
+```
+
+4. Kopier password_generator ind i bin mappen
+```python
+sudo cp password_generator /usr/bin/
+```
+
+5. Generer dit nye password
 Minimum password længde er 6. Vælger du noget under, så vil dit password output i stedet være 6 karakterer lang.
 ```python
 # Uden specialtegn
-python3 password_generator <password length>
+password_generator <password length>
 
 # eller med specialtegn
-python3 password_generator <password length> -s
+password_generator <password length> -s
 ```
 
 For at få genereret et password med specialtegn skal du bare tilføje et flag `-s` eller `--special` efter du har specificeret passwordlængden.
@@ -29,12 +39,12 @@ For at få genereret et password med specialtegn skal du bare tilføje et flag `
 ## Exempler med længden 12
 ```python
 # Uden speicaltegn
-python3 password_generator 12
+password_generator 12
 
 # Med specialtegn (alternativ 1)
-python3 password_generator 12 -s
+password_generator 12 -s
 
 # Med specialtegn (alternativ 2)
-python3 password_generator 12 --special
+password_generator 12 --special
 ```
 
